@@ -1,0 +1,26 @@
+{
+  "name": "waad-bd",
+  "displayName": "waad-bd",
+  "description": "A serene VSCode theme that blends the mystical beauty of a lunar eclipse with a soft, pastel color palette, creating a calming and visually appealing coding environment.",
+  "version": "0.0.1",
+  "publisher":"livCodes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waad64/waed-vscode-theme"
+  },
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "waad-bd",
+        "uiTheme": "vs-dark",
+        "path": "./themes/waad-bd-color-theme.json"
+      }
+    ]
+  }
+}
